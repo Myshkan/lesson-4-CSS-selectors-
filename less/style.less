@@ -1,0 +1,188 @@
+// "out": "../css/style.css"
+@media (min-width: 1401px) {
+   .content{
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     position: absolute;
+     background-color: #383d43;
+     border: solid 25px #fff;
+     font-family: Trebuchet, Arial, sans-serif;
+     header{
+       top: 0;
+       left: 0;
+       right: 0;
+       padding: 10px;
+       line-height: 90%;
+       background-color: #484e55;
+       text-align: center;
+       color: #ec7f80;
+       h1{
+         font-weight: 600;
+       }
+       h2{
+         font-weight: 400;
+       }
+     }
+     main{
+       position: absolute;
+       top: 20%;
+       left: 15%;
+       text-align: left;
+       width: 70%;
+       section{
+         background-color: #7b7594;
+         input{
+           display: inline-block;
+           margin-left: 20px;
+           margin-right: 20px;
+           &:checked +h2{
+              color: #95a5a6;
+              text-decoration:line-through;
+            }
+            &:checked +h2+p{
+              color: #95a5a6;
+              text-decoration:line-through;
+         }
+         }
+         h2{
+           display: inline-block;
+           color: #fff;
+           font-weight: 400;
+         }
+         p{
+           display: inline-block;
+           color: #dadada;
+           quotes: "(" ")";
+           &:before{
+             content: open-quote;
+           }
+           &:after{
+             content: close-quote;
+           }
+         }
+         &:nth-child(2n+1){
+           background-color: #89849f;
+         }
+         &:hover{
+           background-color: #625d77;
+           transition: all 0.1s ease-in;
+           width: 100%;
+           border-bottom: 3px solid #fff;
+           border-top: 3px solid #fff;
+         }
+       }
+     }
+     footer{
+       position: absolute;
+       bottom: 10%;
+       left: 15%;
+       width: 70%;
+       background-color: #484e55;
+       text-align: center;
+       color: #ec7f80;
+       h2{
+         font-weight: 400;
+       }
+     }
+   }
+}
+
+@media (max-width: 1400px) {
+   .content{
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     position: absolute;
+     background-color: #383d43;
+     border: solid 25px #fff;
+     font-family: Trebuchet, Arial, sans-serif;
+     header{
+       top: 0;
+       left: 0;
+       right: 0;
+       padding: 5px;
+       line-height: 90%;
+       background-color: #484e55;
+       text-align: center;
+       color: #ec7f80;
+       h1{
+         font-size: 25px;
+         font-weight: 600;
+       }
+       h2{
+         font-size: 20px;
+         font-weight: 400;
+       }
+     }
+     main{
+       position: absolute;
+       top: 20%;
+       left: 25%;
+       text-align: left;
+       width: 50%;
+       section{
+         background-color: #7b7594;
+         input{
+           display: inline-block;
+           margin-left: 20px;
+           margin-right: 20px;
+           &:checked +h2{
+               color: #95a5a6;
+               text-decoration:line-through;
+             }
+            &:checked +h2+p{
+              color: #95a5a6;
+              text-decoration:line-through;
+           }
+         }
+         h2{
+           font-size: 20px;
+           display: inline-block;
+           color: #fff;
+           font-weight: 400;
+         }
+         p{
+           font-size: 18px;
+           display: inline-block;
+           color: #dadada;
+           quotes: "(" ")";
+           &:before{
+             content: open-quote;
+           }
+           &:after{
+             content: close-quote;
+           }
+         }
+         &:nth-child(2n+1){
+           background-color: #89849f;
+         }
+         &:hover{
+           background-color: #625d77;
+           transition: all 0.1s ease-in;
+           width: 100%;
+           border-bottom: 2px solid #fff;
+           border-top: 2px solid #fff;
+         }
+         &:active{
+           background-color: #ec7f80;
+         }
+       }
+     }
+     footer{
+       position: absolute;
+       bottom: 5%;
+       left: 25%;
+       width: 50%;
+       background-color: #484e55;
+       text-align: center;
+       color: #ec7f80;
+       h2{
+          font-size: 20px;
+          font-weight: 400;
+       }
+     }
+   }
+}
