@@ -74,6 +74,9 @@
     border-bottom: 3px solid #fff;
     border-top: 3px solid #fff;
   }
+  .content main section:active {
+    background-color: #ec7f80;
+  }
   .content footer {
     position: absolute;
     bottom: 10%;
@@ -135,7 +138,7 @@
     color: #95a5a6;
     text-decoration: line-through;
   }
-  .content main section input:checked + h2 + p {
+  .content main section input:checked ~ p {
     color: #95a5a6;
     text-decoration: line-through;
   }
@@ -151,10 +154,10 @@
     color: #dadada;
     quotes: "(" ")";
   }
-  .content main section p:before {
+  .content main section p::before {
     content: open-quote;
   }
-  .content main section p:after {
+  .content main section p::after {
     content: close-quote;
   }
   .content main section:nth-child(2n+1) {

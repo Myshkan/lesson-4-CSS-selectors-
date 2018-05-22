@@ -72,6 +72,9 @@
            border-bottom: 3px solid #fff;
            border-top: 3px solid #fff;
          }
+         &:active{
+           background-color: #ec7f80;
+         }
        }
      }
      footer{
@@ -133,7 +136,7 @@
                color: #95a5a6;
                text-decoration:line-through;
              }
-            &:checked + h2+p{
+            &:checked ~ p{
               color: #95a5a6;
               text-decoration:line-through;
            }
@@ -149,10 +152,10 @@
            display: inline-block;
            color: #dadada;
            quotes: "(" ")";
-           &:before{
+           &::before{
              content: open-quote;
            }
-           &:after{
+           &::after{
              content: close-quote;
            }
          }
@@ -186,6 +189,7 @@
      }
    }
 }
+
 @media (max-width: 900px){
    .content{
      top: 0;
