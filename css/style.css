@@ -184,3 +184,197 @@
     font-weight: 400;
   }
 }
+@media (max-width: 900px) {
+  .content {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: #383d43;
+    border: solid 25px #fff;
+    font-family: Trebuchet, Arial, sans-serif;
+  }
+  .content header {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    line-height: 90%;
+    background-color: #484e55;
+    text-align: center;
+    color: #ec7f80;
+  }
+  .content header h1 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .content header h2 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .content main {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    text-align: left;
+    width: 70%;
+  }
+  .content main section {
+    background-color: #7b7594;
+  }
+  .content main section input {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .content main section input:checked + h2 {
+    color: #95a5a6;
+    text-decoration: line-through;
+  }
+  .content main section input:checked + h2 + p {
+    color: #95a5a6;
+    text-decoration: line-through;
+  }
+  .content main section h2 {
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+  }
+  .content main section p {
+    font-size: 12px;
+    display: inline-block;
+    color: #dadada;
+    quotes: "(" ")";
+  }
+  .content main section p:before {
+    content: open-quote;
+  }
+  .content main section p:after {
+    content: close-quote;
+  }
+  .content main section:nth-child(2n+1) {
+    background-color: #89849f;
+  }
+  .content main section:hover {
+    background-color: #625d77;
+    transition: all 0.1s ease-in;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+  }
+  .content main section:active {
+    background-color: #ec7f80;
+  }
+  .content footer {
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    width: 70%;
+    background-color: #484e55;
+    text-align: center;
+    color: #ec7f80;
+  }
+  .content footer h2 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 500px) {
+  .content {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: #383d43;
+    border: solid 25px #fff;
+    font-family: Trebuchet, Arial, sans-serif;
+  }
+  .content header {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    line-height: 90%;
+    background-color: #484e55;
+    text-align: center;
+    color: #ec7f80;
+  }
+  .content header h1 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .content header h2 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .content main {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: left;
+    width: 80%;
+  }
+  .content main section {
+    background-color: #7b7594;
+  }
+  .content main section input {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .content main section input:checked + h2 {
+    color: #95a5a6;
+    text-decoration: line-through;
+  }
+  .content main section input:checked + h2 + p {
+    color: #95a5a6;
+    text-decoration: line-through;
+  }
+  .content main section h2 {
+    font-size: 12px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+  }
+  .content main section p {
+    font-size: 10px;
+    display: inline-block;
+    color: #dadada;
+    quotes: "(" ")";
+  }
+  .content main section p:before {
+    content: open-quote;
+  }
+  .content main section p:after {
+    content: close-quote;
+  }
+  .content main section:nth-child(2n+1) {
+    background-color: #89849f;
+  }
+  .content main section:hover {
+    background-color: #625d77;
+    transition: all 0.1s ease-in;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+  }
+  .content main section:active {
+    background-color: #ec7f80;
+  }
+  .content footer {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    width: 80%;
+    background-color: #484e55;
+    text-align: center;
+    color: #ec7f80;
+  }
+  .content footer h2 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
