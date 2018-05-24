@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,69 +8,81 @@
   <title>CSS Homework</title>
 </head>
 <body>
-
-<div class="content">
+<form class="content" action="index.html" method="post">
   <header>
     <h1>CSS Dinner Shopping List</h1>
     <h2>Let's go to the mall!</h2>
   </header>
       <main>
         <section>
-          <input type="checkbox">
-          <h2>
-            A lot of pickles
-          </h2>
-          <p>
-            for next lessons about CSS
-          </p>
+           <label for="first">
+             <input type="checkbox" id="first">
+             <h2>
+               A lot of pickles
+             </h2>
+             <p>
+               for next lessons about CSS
+             </p>
+           </label>
         </section>
         <section>
-          <input type="checkbox">
-          <h2>
-            10 apples
-          </h2>
-          <p>
-            for more CSS manipulations
-          </p>
+           <label for="second">
+                <input type="checkbox" id="second">
+                <h2>
+                  10 apples
+                </h2>
+                <p>
+                  for more CSS manipulations
+                </p>
+            </label>
         </section>
         <section>
-          <input type="checkbox">
-          <h2>
-            20 oranges
-          </h2>
-          <p>
-            because they are awesome
-          </p>
+            <label for="third">
+               <input type="checkbox" id="third">
+              <h2>
+                20 oranges
+              </h2>
+              <p>
+                because they are awesome
+              </p>
+           </label>
         </section>
         <section>
-          <input type="checkbox">
-          <h2>
-            13 plates
-          </h2>
-          <p>
-            hmm... they always dissapear
-          </p>
+           <label for="four">
+             <input type="checkbox" id="four">
+             <h2>
+               13 plates
+             </h2>
+             <p>
+               hmm... they always dissapear
+             </p>
+          </label>
         </section>
         <section>
-          <input type="checkbox">
-          <h2>
-            15 bentos
-          </h2>
+            <label for="six">
+               <input type="checkbox" id="six">
+               <h2>
+                 15 bentos
+               </h2>
+            </label>
         </section>
         <section>
-          <input type="checkbox">
-          <h2>
-            1 bottle of Sake ^_^
-          </h2>
-          <p>
-            for my friends
-          </p>
+           <label for="five">
+               <input type="checkbox" id="five">
+               <h2>
+                 1 bottle of Sake ^_^
+               </h2>
+               <p>
+                 for my friends
+               </p>
+           </label>
         </section>
       </main>
-      <footer>
+      <article>
         <h2>Bon appetit :)</h2>
-      </footer>
-  </div>
+     </article>
+     <button class="btn"></button>
+ </frorm>
 
 </body>
 </html>
